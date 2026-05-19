@@ -22,11 +22,8 @@ dev = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.hatch.build]
-sources = ["src"]
-
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["src/package_name"]
 
 [tool.ruff]
 line-length = 88
